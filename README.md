@@ -12,3 +12,5 @@ income.
 - You can delete all items at once with delete all button
 - Bar Chart will show the budget percentage w.r.t (income+expense)
 
+
+Depolyed website :: https://budget-manager-six.vercel.app/main.html
