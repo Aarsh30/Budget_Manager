@@ -47,7 +47,10 @@ body {
     min-height: 100vh;
     font-weight: 400;
     /* background: #f7f7f7; */
-    background: #F2F6FC;
+    background: #d2f3f6;
+    color: inherit;
+    font-family: inherit;
+    font-size: 15px;
 }
 
 .red {
@@ -63,7 +66,8 @@ body {
 **********************************************/
 
 .top {
-    background: linear-gradient(rgba(0, 0, 0, .99), rgba(0, 0, 0, .99)), url(bgimage.png);
+   /*** background: linear-gradient(rgba(0, 0, 0, .99), rgba(0, 0, 0, .99)), url(bgimage.png); *bgimage.png*****/
+    background: linear-gradient(rgba(23, 23, 23, 0.696), #03fef6fc), url(./images/1.png); /****bgimage.png*****/
     background-blend-mode: soft-light;
     background-size: contain;
     background-position: bottom;
@@ -871,3 +875,44 @@ h2 {
         border-radius: 3px;
     }
 }
+
+/*----------------------nav bar content------------------------------------------*/
+
+/* CSS for navbar */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #b5eff4;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .navbar img {
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .navbar a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 28px;
+     font-weight: bold;
+     
+  }
+  
+  .logout-btn {
+    background-color: #f44336;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
